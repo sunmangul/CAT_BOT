@@ -6,7 +6,7 @@ from random import *
 
 client = discord.Client()
 
-token = "NzU1NDI5OTc0MjgyMDc2MjUy.X2DK_Q.I_OXm-2sphKyHiLJqudDxdeedbo"
+token = "token"
 
 @client.event
 async def on_ready():
