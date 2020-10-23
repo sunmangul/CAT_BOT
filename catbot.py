@@ -8,7 +8,7 @@ from discord.ext import commands
 import random
 
 
-token = "NzU0OTE1NjA1NTI5NzU1Njk5.X17r8g.lSEfWfvUTs3_V74tbUNBHFR012o"
+token = "token"
 game = discord.Game("뱃살 조물조물")
 bot = commands.Bot(command_prefix='말랑아 ')
 
