@@ -11,8 +11,7 @@ import java.time.Instant;
 
 public class DDAKcat extends PlayGround {
 	public static <channel> void main(String[] args) {
-		//String token = "Nzg0MzcxMzk2OTk3Njc3MDc2.X8oUyQ.oMlUhXI6ZxPswRW2vP9DxYfJL1M";
-		String token = "NzcyNzIyMDU0OTE4NDM4OTMy.X5-zfg.hiN6ITsglkkQXOWZ8lpCXVZsbAg";
+		String token = "set your token";
 		DiscordApi api = new DiscordApiBuilder().addServerBecomesAvailableListener(event -> {    
 			System.out.println("Loaded " + event.getServer().getName());			//디스코드의 api를 끌어쓰기 위해 객체를 생성하고
 		}).setToken(token).setWaitForServersOnStartup(false).login().join();		//리스너를 생성한다. 그리고 토큰을 지정해주고 로그인 후 채널에 들어온다.
